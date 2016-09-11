@@ -1,0 +1,24 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+# Ban Directory `chat`
+RewriteRule ^chat$ ../ [R=406]
+
+# Change `foo&meh` to `foo?meh`
+RewriteRule ^([A-Za-z0-9-/]+)\&(.*)$ /$1?$2 [R]
+
+# Change `meep` to `/chat/index.php?room=meep`
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9-/_]+)$ /chat/index.php?room=$1&${QUERY_STRING} [L,QSA]
+
+# Change `style.css` to `index.php?action=css`
+RewriteRule ^style.css index.php?action=css [NC]
+
+# Errors
+#ErrorDocument 400 /error.php?400
+#ErrorDocument 401 /error.php?401
+#ErrorDocument 403 /error.php?403
+#ErrorDocument 404 /error.php?404
+#ErrorDocument 406 /error.php?406
+ErrorDocument 500 "<html><head><title>Server Epic Fail!</title></head><body style=\"background: #E4A20D; font-family: sans-serif;\"><h1>The server failed miserably with a 500 Internal Server Error</h1><p>The server encountered an internal error or misconfiguration and was unable to complete your request.</p><p>This means that somebody was messing with the configurations. Contact the webmaster for this site (which I can't look up because the server is having this misconfiguration) and tell him/her that this site has gotten a 500 Internal Server Error.</p></body></html>"

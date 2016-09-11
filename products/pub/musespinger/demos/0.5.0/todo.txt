@@ -1,0 +1,23 @@
+*DONE* Make img.php check to make sure the file was modified today.
+
+*DONE* Add an optional backup feature, controlled in serverprefs.php, to update.php for any modified files.
+
+*DONE* Modify update.php so it checks ver.txt and only updates the files which are listed.
+
+*DONE* Modify how ver.txt is used and put the current version on the first line and every file that needs updating on the next lines.
+
+*DONE* Make the update script be able to run silently in img.php.
+
+*DONE* Make an update script accessible from both index and img.php which can update all of the files.
+
+*DONE* Add the update feature back in but comment out the url to the version and set it to something lower than the or equal to the current version.
+
+*DONE* Make a general config file for img.php and index.php.
+
+*DONE* Revise the code of index.php to make it more efficient. ie. loop through the array of servers.
+
+*DONE* Allow custom ports to be used.
+
+*DONE* Make height of image be based on the number of urls checked, start with a base for 0 urls and add a certain amount for every url.
+
+*DONE* Update every hour based on saved images edit time or update every two hours using custom fntion is_even.

@@ -1,0 +1,95 @@
+/* Universal */
+main {
+	font-family: Sans, Sans Serif, MS Sans Serif, Arial, Tahoma, Verdana;
+}
+
+body {
+	background-color: #EDECEB;
+	font-size: 14px;
+}
+
+body, td {
+	font-family: Sans, Sans Serif, MS Sans Serif, Arial, Tahoma, Verdana;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+.caption {
+	overflow: hidden;
+	height: 14px;
+	vertical-align: middle;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+a {
+	color: #4E76A8;
+}
+
+a.visit:visited {
+	color: #7AA1D1;
+}
+
+a:hover, a.visit:hover {
+	color: #000000;
+}
+
+img {
+	border: 0px;
+}
+
+form {
+	margin: 0px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Menus */
+ table.tablize {border-collapse: collapse;}
+ tr.foot {font-size:8px;}
+ td.bottomright {background:#EDECEB url(../images/menu-bottom-right.png) repeat-x;overflow:hidden;}
+ td.menubottom {background:#EDECEB url(../images/menu-bottom.png) repeat-x;overflow:hidden;}
+ td.bottomleft {background:#EDECEB url(../images/menu-bottom-left.png) repeat-x;overflow:hidden;}
+ td.menuright {background:#EDECEB url(../images/menu-right.png) right repeat-y;overflow:hidden;}
+ td.contenttd {background:#EDECEB; font-size:12px;width:100%}
+ td.menuleft {background:#EDECEB url(../images/menu-left.png) repeat-y;overflow:hidden;}
+ td.topright {background:url(../images/menu-top-right.png) no-repeat;overflow:hidden;vertical-align:top;}
+ td.caption {background:#65a5e1 url(../images/menu-top.png);}
+ div.captiondiv {overflow:hidden;height:14px;vertical-align:middle;font-size:12px;text-align:center;font-weight:bold;color:#ffffff;}
+ td.topleft {background:url(../images/menu-top-left.png) no-repeat; overflow:hidden;vertical-align:top;}
+
+/* Cap Table */
+table.cap {
+  border: none;
+  border-collapse: collapse;
+  font-size: 12px;
+  width: 100%;
+  }
+
+.capcenter {
+  background: url(../images/topbar-background.png);
+  opacity: 0.4;
+  width: 75%;
+  }
+
+/* Body */
+.body {
+  margin: 2px;
+  }
+
+/* Footer */
+.credits {
+  font-size: 10px;
+  text-align: center;
+  }

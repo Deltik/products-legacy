@@ -1,0 +1,75 @@
+1.0.7 (2015/03/23)
+  - FIX: HTML tag stripping in Windows Live Messenger `To` format converter
+
+1.0.6 (2015/03/22)
+  - NEW: Experimental Pidgin plaintext `From` format converter
+  - FIX: Program crash due to the way StdFormat tried to access timezone information
+  - FIX: Possible Pidgin HTML `From` format converter infinite loop
+  - FIX: Improved sender handling in Windows Live Messenger `To` format converter
+  - FIX: XML integrity with "<" and ">" symbols in Windows Live Messenger `To` format converter
+
+1.0.5 (2015/03/20)
+  - FIX: Significant improvements in Pidgin `From` format converter robustness
+  - FIX: Made Pidgin `From` format converter datetimestamps less buggy
+
+1.0.4 (2015/03/17)
+  - NEW: WLM `To` format converter, made specially for the Messenger Revivers
+  - FIX: Pidgin `From` timestamps were always zeroed due to Qt changes.
+  - FIX: Corrected the default path to the Windows Live Messenger format converter
+  - MOD: Updated timezone maps
+  - MOD: Improved readability of the compatibility check section in the main window
+  - MOD: Removed disabled MeeboConnect code
+
+1.0.3 (2014/10/23)
+  - NEW: Digsby `From` format converter
+  - FIX: Update checker works again now that it sends a user agent.
+
+1.0.2 (2012/07/03)
+  - INF: The Log2Log v1.x branch is deprecated.
+  - FIX: Improved Trillian `To` format converter protocol conversions, especially for Facebook and Google Talk
+
+1.0.1 (2012/06/23)
+  - INF: The Log2Log v1.x branch is being discontinued.
+  - NEW: Meebo (farewell) format converter
+  - NEW: You can now use the [Enter] key in a text field to start the conversion.
+  - FIX: Default paths work now.
+  - MOD: Cleaned up the user interface
+
+1.0.0 (2011/10/01)
+  - NEW: Initial Release
+  - NEW: Omegle format converter
+  - NEW: Trillian format converter
+  - NEW: WLM `From` format converter
+  - NEW: AIM `From` format converter
+
+1.0.0dev (2011/06/23)
+  - Log2Log as a desktop application: Development planning
+
+0.0.1a4 (2011/06/23)
+  - INF: The Log2Log PHP project is being discontinued.
+  - FIX: Fixed form security issue of the MeeboConnect interface by switching to POST
+  - MOD: MeeboConnect interface allows for capture threshold setting
+  - MOD: MeeboConnect interface form submits relative to its location
+  - DEV: Added debug information for importing chat log structure
+  - PRE: Google Talk is now under consideration.
+
+0.0.1a3 (2011/03/28)
+  - NEW: Option to include conversion debug logs in the generated archive
+  - FIX: Pidgin.php: Improved support for conversation events
+  - FIX: For chat log developers, the template file had a function correction.
+  - MOD: Log2Log Standard Chat Log Format now stores timezone definitions.
+
+0.0.1a2 (2011/03/27)
+  - NEW: JSON.php: Direct export of the Log2Log Standard Chat Log Format in JSON
+  - NEW: Debug error handler
+  - FIX: Pidgin.php: Prevented processing chat log entry if corrupt
+  - MOD: core.php: Incompatible archive types now pass warnings instead of errors.
+
+0.0.1a1 (2011/03/19)
+  - Initial Release
+
+0.0.1dev (2011/01/07)
+  - Development Layout
+
+0.0.1pre (2011/01/01)
+  - Log2Log Project Founded

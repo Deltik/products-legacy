@@ -1,0 +1,21 @@
+0.2.0 (10/20/2008)
+  - Added big feature: No JavaScript Browser support
+
+0.1.0 (10/10/2008)
+  - COMPLETE MAKEOVER
+  - Renamed to "PHP History Hider"
+  - Added lots of JavaScript enhancements (all JavaScript is created in this version)
+  - Puts in the Deltik Logo ("?content=deltik_logo")
+  - Deleted "noform.php" abilities because of an evil bug
+  - Deleted "version.txt" because it is useless
+  - Merged all the following files into "index.php":
+    * 332d3c9544957f40.gif (enhanced and converted to "technologer.png"; now "?content=technologer_logo")
+    * blank.html (now "?content=blankiframe")
+    * license.html (now in the About section)
+    * noform.php (hiding the form)
+    * tunnel.php (showing the iframe)
+    * tunnels.php (showing input)
+
+0.6.5.1 (09/26/2008)
+  - Original Release by das7002
+  - Called "Technologer Tunnel"

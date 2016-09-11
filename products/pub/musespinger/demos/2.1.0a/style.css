@@ -1,0 +1,25 @@
+body {
+	background: #D2B48C;
+}
+#title {
+	border: ridge;
+	background: #AAAAFF;
+	color: #000088;
+	font-size: 48px;
+	font-weight: bold;
+}
+#desc {
+	border: ridge;
+	background: #AAFFAA;
+	color: #008800;
+}
+#table {
+	background: #E3C59D;
+	text-align: center;
+}
+#notify {
+	border: ridge;
+	background: #FFFFAA;
+	color: #888800;
+	text-align: center;
+}

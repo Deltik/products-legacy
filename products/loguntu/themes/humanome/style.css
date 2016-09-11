@@ -1,0 +1,88 @@
+/* Universal */
+body {
+	background: #f7efdb;
+	font-family: Ubuntu,sans-serif,Sans,Arial,Tahoma,Verdana;
+	margin: 0px;
+	padding: 0px;
+}
+
+#everything {
+	width: 90%;
+	margin: auto;
+}
+
+#logo {
+	background: url('images/loguntu.png') no-repeat;
+	height: 124px;
+	width: 384px;
+	border: 0px;
+}
+
+#logo:hover {
+	background: url('images/loguntu-bevel.png') no-repeat;
+	cursor: hand; cursor: pointer;
+}
+
+/* Content Containers */
+#header {
+	margin: 0px;
+	padding: 4px 0px 0px 4px;
+}
+
+.navibar li {
+	display: inline;
+	list-style-type: none;
+	border-right: 1px solid #8a461b;
+	padding: 4px 8px 4px 8px;
+	margin: 0px -4px 0px 0px;
+}
+
+.navibar li:hover, .navibar .selected {
+	background: #d69f6d;
+}
+
+.navibar .selected {
+	font-weight: bold;
+}
+
+.navibar a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #55200b;
+}
+
+.navibar ul, .navibar ol {
+	background: #ecc797;
+	margin: 0px;
+	padding: 4px 0px 4px 0px;
+	border: 1px solid #8a461b;
+}
+
+#body {
+	margin: 4px;
+}
+
+/* Dialog Containers */
+.error {
+	color: #a40000;
+	background: #ff8888;
+	width: 400px;
+	border: 8px outset;
+	border-radius: 12px;
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url('http://themes.googleusercontent.com/font?kit=0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw') format('woff');
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Ubuntu'), url('http://themes.googleusercontent.com/font?kit=_xyN3apAT_yRRDeqB3sPRg') format('woff');
+}

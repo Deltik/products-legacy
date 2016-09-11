@@ -1,0 +1,140 @@
+/* Universal */
+
+body {
+	background: url('images/background-gradient-bottom.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-color: #000000;
+	font-family: optimus_princeps;
+}
+
+p {
+	margin-top: 0px;
+}
+
+a {
+	color: white;
+}
+a:hover {
+	color: burlywood;
+}
+a:visited {
+	color: beige;
+}
+
+fieldset {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+/* Fonts */
+@font-face {
+	font-family: optimus_princeps;
+	src: url('images/OptimusPrinceps.ttf');
+}
+@font-face {
+	font-family: caramella_regular;
+	src: url('images/Caramella_Regular.ttf');
+}
+
+/* Containers */
+
+.main {
+	width: 100%;
+}
+
+.cap {
+	width: 90%;
+	margin: auto;
+	padding: 8px;
+	margin-bottom: 4px;
+	background-color: black;
+	color: white;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#logo {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.base {
+	width: 90%;
+	margin: auto;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+.menuleft, .body, .menuright {
+	color: white;
+	font-family: caramella_regular;
+	vertical-align: top;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	padding: 8px;
+}
+
+.menuleft, .menuright {
+	width: 20%;
+	background: darkslategray;
+}
+
+.body {
+	width: 60%;
+	background: dimgray;
+}
+
+.navibar {
+	background-color: firebrick;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	padding: 8px 8px 5px 8px;
+}
+
+.navibar li {
+	list-style-type: none;
+	background: darkslategray;
+	font-family: arial;
+	padding: 4px;
+	border-bottom: 3px firebrick solid;
+}
+
+.navibar a {
+	color: white;
+}
+.navibar a:hover {
+	color: burlywood;
+}
+
+/* Page-Dependent */
+
+table .fromchart {
+	background: gray;
+	border-collapse: collapse;
+	cursor: default;
+	float: right;
+}
+
+.fromchart a {
+	color: white;
+	text-decoration: none;
+}
+
+.fromchart img {
+	border: 0px;
+}
+
+.fromcharthead {
+	background: lightblue;
+}
+
+.fromchartbody {
+	cursor: pointer;
+	cursor: hand;
+}

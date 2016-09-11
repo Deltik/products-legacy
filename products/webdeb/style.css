@@ -1,0 +1,151 @@
+/* Universal */
+body {
+	font-family: sans-serif;
+	margin: 0px 5px 0px 5px;
+	padding: 0px;
+}
+
+img {
+	border: 0px;
+}
+
+a:link {
+	color: #0000FF;
+}
+
+a:visited {
+	color: #800080;
+}
+
+a:hover {
+	color: #F000FF;
+}
+
+a:active {
+	color: #FF0000;
+}
+
+/* Specific */
+
+#headerupper {
+	margin-top: 9px;
+}
+
+#navibar, #navibar a {
+	text-align: center;
+	background: #BF1238;
+	padding-top: 6px;
+	padding-bottom: 4px;
+}
+
+#navibar, #navibar a, #menuleft {
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+}
+
+#navibar ul {
+	display: inline;
+	list-style-type: none; 
+	padding-left: 0px;
+	line-height: 1.5em;
+}
+#navibar ul li {
+	display: inline;
+	margin: 0;
+	white-space: nowrap;
+}
+
+#navibar a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 0.2em 0.36em 0.2em 0.36em;
+	/*line-height: 1.75em;*/
+	background-color: #000084;
+	border: 1px solid #000084;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+#navibar a:hover {
+	background: #0000CC;
+}
+
+#body {
+	margin-top: 19px;
+}
+
+#menuleft {
+	float: left;
+	margin: 0 0.4em 0 1px;
+	padding-left: 5px;
+	padding-bottom: 1em;
+	width: auto;
+	background: #BBDDFF;
+	font-size: 0.9em;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #BBDDFF;
+	/* overflow: auto; */
+}
+#menuleft a:link, #menuleft a:visited {
+	display: block;
+}
+#menuleft a:hover {
+	background-color: #DDEEFF;
+}
+#menuleft ul {
+	margin: 2px;
+	padding: 0;
+	list-style-type: none;
+	font-weight: bold;
+}
+#menuleft ul.votemenu {
+	width: 11em;
+}
+#menuleft ul.cdmenu {
+	width: 12em;
+}
+#menuleft ul.votemenu ul li, #menuleft ul.cdmenu ul li {
+	padding-bottom: 0.4em;
+}
+#menuleft li ul {
+	display: inline;
+}
+#menuleft ul li {
+	padding: 0.2em 0;
+}
+#menuleft ul ul {
+	font-size: 0.9em;
+	margin: 0;
+}
+#menuleft ul li a {
+	line-height: 1.2em;
+	padding-right: 0.5em;
+	/* padding: 0.2em 0 0.3em 0em; */
+}
+#menuleft ul ul li a {
+	font-weight: normal;
+	padding: 0.1em 0.5em;
+	line-height: 1.1em;
+}
+#menuleft ul ul li {
+	padding-top: 0;
+}
+#menuleft p {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+#menuleft p a {
+	display: block;
+	margin: 0;
+}
+#menuleft p img {
+	margin-left: 1em;
+}
+#menuleft .menuselected {
+	color: #BF1238;
+}
+#menuleft ul ul .menuselected {
+	text-indent: 0.5em;
+}

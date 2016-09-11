@@ -1,0 +1,130 @@
+/* Universal */
+body {
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
+/* Main Content */
+.main_content {
+	
+}
+
+#convo {
+	margin-bottom: 200px;
+}
+
+.mi {
+	text-align: left;
+	width: 100%;
+}
+
+.yu {
+	text-align: right;
+	width: 100%;
+}
+
+.mitext {
+	background: lightgray;
+	width: 40%;
+	padding: 4px 8px 4px 4px;
+	margin: 4px 8px 4px 4px;
+}
+
+.yutext {
+	float: right;
+	background: lightgreen;
+	width: 40%;
+	padding: 4px 8px 4px 4px;
+	margin: -24px 8px 4px 4px;
+}
+
+/* Floating Header */
+.float_top {
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	width: 20%;
+	left: 40%;
+	right: 40%;
+}
+
+/* Floating Footer */
+.float_bottom {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+table.inputbox {
+	width: 100%;
+	padding-right: 22px;
+	padding-bottom: 8px;
+}
+
+textarea.inputbox {
+	width: 100%;
+	height: 100px;
+}
+
+#status {
+	color: gray;
+	font-style: italic;
+	font-size: 12px;
+}
+
+/* Floating Boxes */
+
+#helpbox {
+	background: beige;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 100%;
+	display: none;
+	z-index: 0;
+}
+
+.hbnest {
+	margin: 8px;
+	margin-bottom: 140px;
+}
+
+.sstable, .detable {
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 4px;
+}
+
+.sstable {
+	width: 0px;
+	text-align: center;
+}
+
+th.sstable {
+	background: #CCCCFF;
+	color: #4444FF;
+}
+
+td.sstable {
+	background: #EEEEFF;
+	color: #4444FF;
+}
+
+#sslegend {
+	margin-left: 16px;
+}
+
+th.detable {
+	background: #FFCCCC;
+	color: #FF4444;
+}
+
+td.detable {
+	background: #FFEEEE;
+	color: #FF4444;
+}

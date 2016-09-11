@@ -1,0 +1,50 @@
+/* Universal */
+body {
+	background: #f7efdb;
+	font-family: Ubuntu,sans-serif,Sans,Arial,Tahoma,Verdana;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo {
+	background: url('loguntu.png') no-repeat;
+	height: 124px;
+	width: 384px;
+	border: 0px;
+}
+
+#logo:hover {
+	background: url('loguntu-bevel.png') no-repeat;
+	cursor: hand; cursor: pointer;
+}
+
+/* Content Containers */
+#header {
+	margin: 0px;
+	padding: 4px 0px 0px 4px;
+	border-bottom: 1px solid black;
+}
+
+/* Dialog Containers */
+.error {
+	color: #a40000;
+	background: #ff8888;
+	width: 400px;
+	border: 8px outset;
+	border-radius: 12px;
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url('http://themes.googleusercontent.com/font?kit=0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw') format('woff');
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Ubuntu'), url('http://themes.googleusercontent.com/font?kit=_xyN3apAT_yRRDeqB3sPRg') format('woff');
+}

@@ -1,0 +1,107 @@
+/* Universal */
+main {
+	font-family: Sans, Sans Serif, MS Sans Serif, Arial, Tahoma, Verdana;
+}
+
+body {
+	background-color: #E4A20D;
+	font-size: 14px;
+}
+
+body, td {
+	font-family: sansation, Sans, Sans Serif, MS Sans Serif, Arial, Tahoma, Verdana;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+.caption {
+	overflow: hidden;
+	height: 14px;
+	vertical-align: middle;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+a {
+	color: #4E76A8;
+}
+
+a.visit:visited {
+	color: #7AA1D1;
+}
+
+a:hover, a.visit:hover {
+	color: #000000;
+}
+
+img {
+	border: 0px;
+}
+
+form {
+	margin: 0px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Containers */
+#main_container {
+	padding: 0% 5% 0% 5%;
+}
+
+.header {
+	background: url('images/header-background.png') #185D94;
+	width: 100%;
+}
+
+.navibar {
+	background: url('images/navibar-background.png') #404040;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.content_top {
+	background: url('images/body-top.png') #FFFFFF repeat-x;
+	height: 8px;
+}
+
+.content {
+	background: #FFFFFF;
+	padding: 8px;
+}
+
+.content_bottom {
+	background: url('images/body-bottom.png') #FFFFFF repeat-x;
+	height: 8px;
+}
+
+.footer_box {
+	background: #88FF00;
+	position: absolute;
+	bottom: 0px;
+	width: 90%;
+	text-align: center;
+}
+
+.footer_top {
+	background: url('images/footer-top.png') repeat-x;
+}
+
+.footer {
+	padding: 0px 8px 0px 8px;
+	margin-top: -8px;
+}

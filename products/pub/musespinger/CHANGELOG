@@ -1,0 +1,70 @@
+3.1.1 (2014/05/29)
+  - FIX: Now compatible with error_reporting = E_ALL
+  - FIX: Improved config.php permissions checker
+  - FIX: Updated to work with jQuery v1.10.2
+  - FIX: Image generator integration
+  - XXX: No DoS attack prevention implemented
+
+3.1.0 (2011/07/07)
+  - NEW: Mouseover server status details
+  - NEW: Mouseover mirror information
+  - FIX: Improved AJAX data fetching
+  - FIX: Minor English grammar fix
+  - FIX: Cache disabled for remote table rendering
+  - FIX: API typo with cURL system for "reason"
+
+3.0.0 (2011/05/20)
+  - NEW: Completely rewritten
+  - NEW: Redesigned interface
+  - NEW: cURL and file_get_contents for server status checking
+  - NEW: MuSeSPinger network for worldwide server status checking
+  - NEW: Option to render without the network: "Work Locally"
+  - NEW: Status icons for "online with problems" and "status unavailable"
+  - NEW: No JavaScript compatibility
+  - NEW: "Report Problem" link
+  - NEW: Administration control center for modifying configuration
+  - NEW: Fetch MuSeSPinger news from Deltik
+  - MOD: URL input uses line breaks instead of spaces.
+  - MOD: Remade status icons
+  - MOD: Foreign language support removed
+  - MOD: Automatic update system removed
+  - MOD: 'update' directory re-purposed to MuSeSPinger news
+  - MOD: Implemented GNU GPL License
+
+2.1.0b (2011/02/04)
+  - NEW: Implemented image output feature
+
+2.1.0a (2010/10/24)
+  - FIX: Improved update system to eliminate 500 Internal Server Errors
+
+2.0.1a4
+  - FIX: Fixed a critical Update Manager bug in which only the last update server was considered for use
+
+2.0.1a3
+  - MOD: Cleaned up source code to meet the Deltik Programming Syntax Standard
+
+2.0.1a2 (2009/12/30)
+  - FIX: Fixed Update System
+
+2.0.1a1
+  - FIX: Update System Test
+
+2.0.1a
+  - NEW: Added Background Communications (API)
+
+2.0.0a (2009/10/31)
+  - Initial Release
+  - NEW: Redesigned interface
+  - FIX: Massively optimized
+
+1.0.0pre
+  - Undocumented Version
+  - MOD: Renamed to MuSeSPinger
+
+0.5.0 (2008/09/20)
+  - Released by JRD as imw_status_viewer 0.5
+  - NEW: Massively improved backend
+  - MOD: Called IMWNSC (IsMyWebsite Node Status Checker) 0.5.0
+
+0.4.3
+  - Undocumented Version
